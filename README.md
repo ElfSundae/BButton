@@ -14,7 +14,7 @@
 ## Installation
 
 ````
-pod 'BButton'
+pod 'BButton', :source => 'https://github.com/ElfSundae/CocoaPods-Specs.git'
 ````
 Otherwise, drag the `BButton/` folder to your project. 
 
