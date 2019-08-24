@@ -13,9 +13,9 @@
 {
     [super viewDidLoad];
     
-    //    uncomment to set corner radius for all buttons
+    // uncomment to set corner radius for all buttons
     //
-    //    [[BButton appearance] setButtonCornerRadius:@50.0f];
+    // [[BButton appearance] setButtonCornerRadius:@50.0f];
     
     BButtonType type = 0;
     
@@ -31,9 +31,9 @@
             [btn setTitle:[self titleForType:type] forState:UIControlStateNormal];
             
             if(type == BButtonTypeFacebook)
-                [btn addAwesomeIcon:FAFacebook beforeTitle:YES];
+                [btn addAwesomeIcon:FAIconFacebook beforeTitle:YES];
             else if(type == BButtonTypeTwitter)
-                [btn addAwesomeIcon:FATwitter beforeTitle:NO];
+                [btn addAwesomeIcon:FAIconTwitter beforeTitle:NO];
             
             type++;
             if(type > BButtonTypeGray) {
@@ -45,11 +45,7 @@
             }
             
             [btn addTarget:self action:@selector(buttonPressed:) forControlEvents:UIControlEventTouchUpInside];
-            
-            //            uncomment to show buttons as disabled
-            //
-            //            btn.shouldShowDisabled = YES;
-            //            btn.enabled = NO;
+            btn.enabled = YES;
             
             [self.view addSubview:btn];
         }

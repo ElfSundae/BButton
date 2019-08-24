@@ -20,7 +20,7 @@
 //
 //  http://github.com/jessesquires/BButton
 //
-//  http://hexedbits.com
+//  http://jessesquires.com
 //
 
 #import "NSString+FontAwesome.h"

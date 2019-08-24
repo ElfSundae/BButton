@@ -1,6 +1,6 @@
-# BButton [![Build Status](https://secure.travis-ci.org/jessesquires/BButton.svg)](http://travis-ci.org/jessesquires/BButton) [![Version Status](http://img.shields.io/cocoapods/v/BButton.png)][docsLink] [![license MIT](http://img.shields.io/badge/license-MIT-orange.png)][mitLink]
+# BButton [![Build Status](https://secure.travis-ci.org/jessesquires/BButton.svg)](http://travis-ci.org/jessesquires/BButton) [![Version Status](https://img.shields.io/cocoapods/v/BButton.svg)][podLink] [![license MIT](https://img.shields.io/cocoapods/l/BButton.svg)][mitLink] [![Platform](https://img.shields.io/cocoapods/p/BButton.svg)][docsLink]
 
-[Twitter Bootstrap](http://getbootstrap.com) buttons for iOS
+*[Twitter Bootstrap](http://getbootstrap.com) buttons for iOS*
 
 `BButton` is a subclass of `UIButton` that is styled like the Twitter Bootstrap buttons, and is drawn entirely with `CoreGraphics`. Buttons can be styled as Bootstrap [version 2](http://getbootstrap.com/2.3.2/) or [version 3](http://getbootstrap.com).
 
@@ -52,7 +52,7 @@ Forked, refactored, updated, maintained by [@jesse_squires](https://twitter.com/
 
 Many thanks to [the contributors](https://github.com/jessesquires/BButton/graphs/contributors) of this project.
 
-## Apps Using This Control
+## Apps using this library
 
 * [Gitty for GitHub](https://itunes.apple.com/us/app/gitty-for-github/id645696309?mt=8)
 * [Hemoglobe](http://bit.ly/hemoglobeapp)
@@ -64,6 +64,8 @@ Many thanks to [the contributors](https://github.com/jessesquires/BButton/graphs
 * [OpenWatch](https://itunes.apple.com/us/app/openwatch-free-video-streaming/id642680756?mt=8)
 * [VSNotes](https://itunes.apple.com/us/app/vsnotes/id695433001?mt=8)
 * [Crew Scout](https://itunes.apple.com/us/app/crew-scout/id721124938?mt=8)
+* [Chronorea](https://itunes.apple.com/us/app/chronorea-interventions-manager/id813086719?mt=8)
+* [MA Mobile](https://itunes.apple.com/us/app/ma-mobile/id447421885?mt=8)
 
 ## License
 
@@ -81,6 +83,7 @@ Many thanks to [the contributors](https://github.com/jessesquires/BButton/graphs
 
 [docsLink]:http://cocoadocs.org/docsets/BButton
 [mitLink]:http://opensource.org/licenses/MIT
+[podLink]:https://cocoapods.org/pods/BButton
 
 [img1]:https://raw.githubusercontent.com/jessesquires/BButton/master/Screenshots/screenshot0.png
 [img2]:https://raw.githubusercontent.com/jessesquires/BButton/master/Screenshots/screenshot1.png

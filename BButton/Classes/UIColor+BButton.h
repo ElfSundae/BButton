@@ -14,10 +14,12 @@
 //
 //  http://github.com/jessesquires/BButton
 //
-//  http://hexedbits.com
+//  http://jessesquires.com
 //
 
 #import <UIKit/UIKit.h>
+
+NS_ASSUME_NONNULL_BEGIN
 
 @interface UIColor (BButton)
 
@@ -52,8 +54,13 @@
 #pragma mark - Utilities
 
 - (UIColor *)bb_desaturatedColorToPercentSaturation:(CGFloat)percent;
+
 - (UIColor *)bb_lightenColorWithValue:(CGFloat)value;
+
 - (UIColor *)bb_darkenColorWithValue:(CGFloat)value;
+
 - (BOOL)bb_isLightColor;
 
 @end
+
+NS_ASSUME_NONNULL_END

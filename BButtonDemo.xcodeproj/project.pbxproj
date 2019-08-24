@@ -247,7 +247,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = TWBS;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Hexed Bits";
 				TargetAttributes = {
 					88F28F37183336920044C99F = {
@@ -378,6 +378,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -442,6 +443,7 @@
 				INFOPLIST_FILE = "BButtonDemo/BButtonDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hexedbits.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -460,6 +462,7 @@
 				INFOPLIST_FILE = "BButtonDemo/BButtonDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hexedbits.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -471,11 +474,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BButtonDemo.app/BButtonDemo";
 				CODE_SIGN_IDENTITY = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BButtonDemo/BButtonDemo-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -484,6 +483,7 @@
 				);
 				INFOPLIST_FILE = "BButtonDemoTests/BButtonDemoTests-Info.plist";
 				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hexedbits.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "33D9D386-8DC3-4040-BF92-DA1C5D32964B";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -496,14 +496,11 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BButtonDemo.app/BButtonDemo";
 				CODE_SIGN_IDENTITY = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BButtonDemo/BButtonDemo-Prefix.pch";
 				INFOPLIST_FILE = "BButtonDemoTests/BButtonDemoTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hexedbits.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "33D9D386-8DC3-4040-BF92-DA1C5D32964B";
 				TEST_HOST = "$(BUNDLE_LOADER)";
